@@ -3,7 +3,7 @@
     "subscriptionId": "subid",
     "resourceGroupName": "testrg",
     "virtualNetworkGatewayName": "test-vpn-gateway-1",
-    "api-version": "2018-04-01"
+    "api-version": "2020-03-09"
   },
   "responses": {
     "200": {
