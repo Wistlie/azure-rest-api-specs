@@ -28,15 +28,46 @@ These are the global settings for the Network API.
 title: NetworkManagementClient
 description: Network Client
 openapi-type: arm
-tag: package-2019-11
+tag: package-2020-03
 ```
 
 
+### Tag: package-2020-03
+
+These settings apply only when `--tag=package-2020-03` is specified on the command line.
+
+```yaml $(tag) == 'package-2020-03'
+input-file:
+  - Microsoft.Network/stable/2020-03-09/applicationGateway.json
+  - Microsoft.Network/stable/2020-03-09/applicationSecurityGroup.json
+  - Microsoft.Network/stable/2020-03-09/azureFirewall.json
+  - Microsoft.Network/stable/2020-03-09/checkDnsAvailability.json
+  - Microsoft.Network/stable/2020-03-09/ddosProtectionPlan.json
+  - Microsoft.Network/stable/2020-03-09/endpointService.json
+  - Microsoft.Network/stable/2020-03-09/expressRouteCircuit.json
+  - Microsoft.Network/stable/2020-03-09/expressRouteCrossConnection.json
+  - Microsoft.Network/stable/2020-03-09/loadBalancer.json
+  - Microsoft.Network/stable/2020-03-09/network.json
+  - Microsoft.Network/stable/2020-03-09/networkInterface.json
+  - Microsoft.Network/stable/2020-03-09/networkSecurityGroup.json
+  - Microsoft.Network/stable/2020-03-09/networkWatcher.json
+  - Microsoft.Network/stable/2020-03-09/operation.json
+  - Microsoft.Network/stable/2020-03-09/publicIpAddress.json
+  - Microsoft.Network/stable/2020-03-09/routeFilter.json
+  - Microsoft.Network/stable/2020-03-09/routeTable.json
+  - Microsoft.Network/stable/2020-03-09/serviceCommunity.json
+  - Microsoft.Network/stable/2020-03-09/usage.json
+  - Microsoft.Network/stable/2020-03-09/virtualNetwork.json
+  - Microsoft.Network/stable/2020-03-09/virtualNetworkGateway.json
+  - Microsoft.Network/stable/2020-03-09/virtualWan.json
+  - Microsoft.Network/stable/2020-03-09/vmssNetworkInterface.json
+  - Microsoft.Network/stable/2020-03-09/vmssPublicIpAddress.json
+```
 ### Tag: package-2019-11
 
 These settings apply only when `--tag=package-2019-11` is specified on the command line.
 
-```yaml $(tag) == 'package-2019-11'
+``` yaml $(tag) == 'package-2019-11'
 input-file:
   - Microsoft.Network/stable/2019-11-01/applicationGateway.json
   - Microsoft.Network/stable/2019-11-01/applicationSecurityGroup.json
@@ -82,6 +113,7 @@ input-file:
   - Microsoft.Network/stable/2019-11-01/vmssPublicIpAddress.json
   - Microsoft.Network/stable/2019-11-01/webapplicationfirewall.json
 ```
+
 ### Tag: package-2019-09
 
 These settings apply only when `--tag=package-2019-09` is specified on the command line.
